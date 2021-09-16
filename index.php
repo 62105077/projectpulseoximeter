@@ -119,7 +119,7 @@
                     dateStr += " "+d.getHours()+":"+d.getMinutes();
 
               
-              $("#lastHearRate").text(feed[19].field1+ " C");
+              $("#lastHearRate").text(feed[19].field1+ " beats per minute");
                 $("#lastSP02").text(feed[19].field2+ " %");
                 $("#lastUpdate").text(dateStr);
 
